@@ -25,6 +25,9 @@ Covering all major parts of Angular Framework.
    * Parameters & ActivatedRoute
    * Multiple outlets
    * Child routes
+5. Animations - TODO
+   * Component
+   * Route
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
