@@ -1,5 +1,5 @@
 # Angular Features
-<img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="drawing" style="width:200px;height:200px;display:block;"/>
+<img src="https://angular.io/assets/images/logos/angular/angular.svg" width=200/>
 
 Covering all major parts of Angular Framework.
 1. Components
