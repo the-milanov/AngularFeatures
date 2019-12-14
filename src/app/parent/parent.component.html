@@ -1,0 +1,3 @@
+<p>parent works!</p>
+<app-child [dataFromParent]="parentProperty"></app-child>
+<app-child (notify)="notifiedFromChield($event)" [dataFromParent]="parentProperty"></app-child>
