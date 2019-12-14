@@ -12,6 +12,11 @@ Covering all major parts of Angular Framework.
    * Structural: ngIf, ngFor, ngSwitch
    * Attribute: ngModel, ngClass, ngStyle
    * ng-template
+3. Data Sharing
+   * @Input & @Output
+   * Template reference variables
+   * ViewChild
+   * Services
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
