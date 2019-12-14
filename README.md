@@ -2,6 +2,7 @@
 <img src="https://angular.io/assets/images/logos/angular/angular.svg" width=200/>
 
 Covering all major parts of Angular Framework.
+## Features
 1. Components
    * Generating component
    * Binding: interpolation, property, event, two-way binding
@@ -17,6 +18,13 @@ Covering all major parts of Angular Framework.
    * Template reference variables
    * ViewChild
    * Services
+4. Routing
+   * router-outlet
+   * Routes object
+   * Action links
+   * Parameters & ActivatedRoute
+   * Multiple outlets
+   * Child routes
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

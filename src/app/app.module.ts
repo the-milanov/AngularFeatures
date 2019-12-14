@@ -9,6 +9,7 @@ import { DirectivesContainerComponent } from './directives-container/directives-
 import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
 import { ViewchildComponent } from './viewchild/viewchild.component';
+import { Route1Component } from './route1/route1.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ViewchildComponent } from './viewchild/viewchild.component';
     DirectivesContainerComponent,
     ChildComponent,
     ParentComponent,
-    ViewchildComponent
+    ViewchildComponent,
+    Route1Component
   ],
   imports: [
     BrowserModule,
