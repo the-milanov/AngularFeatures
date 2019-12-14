@@ -8,7 +8,7 @@ import { ViewchildComponent } from '../viewchild/viewchild.component';
 })
 export class ParentComponent implements OnInit {
   parentProperty:string = 'Parent property';
-  @ViewChild(ViewchildComponent) viewChield : ViewchildComponent;
+  @ViewChild(ViewchildComponent, {static: false}) viewChield : ViewchildComponent;
   constructor() { }
 
   ngOnInit() {

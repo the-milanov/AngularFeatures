@@ -1,7 +1,8 @@
-<p>directives-container works!</p>
+<p>*ngfor directive over array</p>
 <div *ngFor="let number of numbers">
   <span>{{number}},</span>
 </div>
+<p>*ngif directive & ng-template</p>
 <div *ngIf="numbers.length > 2 then trueTemp; else falseTemp"></div>
 <ng-template #trueTemp>Greater than 2</ng-template>
 <ng-template #falseTemp>Lesser than 2</ng-template>

@@ -1,7 +1,6 @@
-<input #dataToPass type="text" placeholder="Data to pass to route">
-<a [routerLink]="['/first', dataToPass.value]" >First</a>
+<input #routeParameter type="text" placeholder="Route parameter">
+<a [routerLink]="['/first', routeParameter.value]" >Link to route, input is parameter.</a>
 <router-outlet></router-outlet>
-<p>Main app.component</p>
 <app-user></app-user>
 <app-directives-container></app-directives-container>
 <app-parent></app-parent>
