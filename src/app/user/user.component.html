@@ -1,0 +1,8 @@
+<p>user works!</p>
+<p>Users name is {{ name }}</p>
+<p [ngClass]="{alive: this.isAlive,dead: !this.isAlive}" [ngStyle]="{'background-color': this.name}">User is alive: {{ isAlive }}</p>
+<button (click)="changeBoolean()">Change if user is alive</button>
+<br>
+<p>Type color to change background:</p>
+<input #templateVar type="text" [(ngModel)]="name">
+<p>Template reference variable: {{templateVar.value.length}}</p>
