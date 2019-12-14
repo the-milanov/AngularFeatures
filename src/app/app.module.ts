@@ -8,6 +8,7 @@ import { UserComponent } from './user/user.component';
 import { DirectivesContainerComponent } from './directives-container/directives-container.component';
 import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
+import { ViewchildComponent } from './viewchild/viewchild.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ParentComponent } from './parent/parent.component';
     UserComponent,
     DirectivesContainerComponent,
     ChildComponent,
-    ParentComponent
+    ParentComponent,
+    ViewchildComponent
   ],
   imports: [
     BrowserModule,

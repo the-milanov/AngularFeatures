@@ -1,3 +1,5 @@
 <p>parent works! {{child1.dataFromParent}} tempalte ref var in child</p>
 <app-child #child1 [dataFromParent]="parentProperty"></app-child>
 <app-child (notify)="notifiedFromChield($event)" [dataFromParent]="parentProperty"></app-child>
+<app-viewchild #vc></app-viewchild>
+<button (click)="callChieldMethod()">Call ViewChild method</button>

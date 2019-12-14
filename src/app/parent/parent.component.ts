@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { ViewchildComponent } from '../viewchild/viewchild.component';
 
 @Component({
   selector: 'app-parent',
@@ -7,11 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
   parentProperty:string = 'Parent property';
+  @ViewChild(ViewchildComponent) viewChield : ViewchildComponent;
   constructor() { }
 
   ngOnInit() {
   }
   notifiedFromChield(e){
     alert(e);
+  }
+  callChieldMethod(){
+    this.viewChield.chieldMethod();
   }
 }
