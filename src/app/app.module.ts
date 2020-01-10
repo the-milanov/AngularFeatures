@@ -11,6 +11,7 @@ import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
 import { ViewchildComponent } from './viewchild/viewchild.component';
 import { Route1Component } from './route1/route1.component';
+import { ImageSliderComponent } from './image-slider/image-slider.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Route1Component } from './route1/route1.component';
     ChildComponent,
     ParentComponent,
     ViewchildComponent,
-    Route1Component
+    Route1Component,
+    ImageSliderComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,5 @@
+<p>Animations!</p>
+<div [@openClose]="isOpen? 'open': 'closed'" id="box"></div>
+<button (click)="toggle()">Move</button>
+<div id="box2" [@inOut] *ngIf="isVisible"></div>
+<button (click)="isVisible = !isVisible">Move</button>

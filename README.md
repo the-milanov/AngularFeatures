@@ -25,17 +25,10 @@ Covering all major parts of Angular Framework.
    * Parameters & ActivatedRoute
    * Multiple outlets
    * Child routes
-5. Animations - TODO
-   * Component
-   * Route
-6. Pipes - TODO
-7. Services - TODO
-8. Forms & Inputs - TODO
-9. Guards - TODO
-10. Interceptors - TODO
-11. Http Client - TODO
-12. Modules - TODO
-13. RxJS - TODO
+5. Animations
+6. Forms & Inputs - TODO
+7. Modules - TODO
+8. RxJS - TODO
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
