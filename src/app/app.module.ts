@@ -2,6 +2,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from "@angular/forms";
+import { ReactiveFormsModule } from "@angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,7 @@ import { ParentComponent } from './parent/parent.component';
 import { ViewchildComponent } from './viewchild/viewchild.component';
 import { Route1Component } from './route1/route1.component';
 import { ImageSliderComponent } from './image-slider/image-slider.component';
+import { FormstestingComponent } from './formstesting/formstesting.component';
 
 @NgModule({
   declarations: [
@@ -22,13 +24,15 @@ import { ImageSliderComponent } from './image-slider/image-slider.component';
     ParentComponent,
     ViewchildComponent,
     Route1Component,
-    ImageSliderComponent
+    ImageSliderComponent,
+    FormstestingComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

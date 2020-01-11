@@ -26,7 +26,9 @@ Covering all major parts of Angular Framework.
    * Multiple outlets
    * Child routes
 5. Animations
-6. Forms & Inputs - TODO
+6. Forms
+   * Reactive forms
+   * Template-driven forms 
 7. Modules - TODO
 8. RxJS - TODO
 ## Development server

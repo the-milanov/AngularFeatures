@@ -1,0 +1,46 @@
+<p>Reactive forms!</p>
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+  <br>
+  <label>Username:</label>
+  <input type="text" formControlName="username">
+  
+  <br>
+  <label>Password:</label>
+  <input type="password" formControlName="password">
+  
+  <br>
+  <label>Remember me:</label>
+  <input type="checkbox" formControlName="rememberMe">
+  
+  <input type="submit" value="Submit!">
+</form>
+<p>Form builder:</p>
+<form [formGroup]="registerForm" (ngSubmit)="onRegisterSubmit()">
+  <br>
+  <label>First name:</label>
+  <input type="text" formControlName="firstName">
+  
+  <br>
+  <label>Last Name:</label>
+  <input type="text" formControlName="lastName">
+  
+  <br>
+  <label>Email:</label>
+  <input type="email" formControlName="email" required>
+  
+  <br>
+  <label>Confirm Email:</label>
+  <input type="email" formControlName="confirmEmail">
+  
+  <br>
+  <label>Password:</label>
+  <input type="password" formControlName="password">
+  
+  <br>
+  <label>Confirm Password:</label>
+  <input type="password" formControlName="confirmPassword">
+
+  <input type="submit" [disabled]="!registerForm.valid" value="Submit!">
+
+</form> 
