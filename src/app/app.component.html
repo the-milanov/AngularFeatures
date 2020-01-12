@@ -1,3 +1,4 @@
+<div class="container">
 <input #routeParameter type="text" placeholder="Route parameter">
 <a [routerLink]="['/first', routeParameter.value]" >Link to route, input is parameter.</a>
 <router-outlet></router-outlet>
@@ -6,3 +7,5 @@
 <app-parent></app-parent>
 <app-image-slider></app-image-slider>
 <app-formstesting></app-formstesting>
+<app-hero-form></app-hero-form>
+</div>
