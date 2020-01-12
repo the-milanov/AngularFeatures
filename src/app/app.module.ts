@@ -16,6 +16,7 @@ import { ImageSliderComponent } from './image-slider/image-slider.component';
 import { FormstestingComponent } from './formstesting/formstesting.component';
 import { HeroFormComponent } from './hero-form/hero-form.component';
 import { ModulesOverviewComponent } from './modules-overview/modules-overview.component';
+import { RxjstestingComponent } from './rxjstesting/rxjstesting.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ModulesOverviewComponent } from './modules-overview/modules-overview.co
     ImageSliderComponent,
     FormstestingComponent,
     HeroFormComponent,
-    ModulesOverviewComponent
+    ModulesOverviewComponent,
+    RxjstestingComponent
   ],
   imports: [
     BrowserModule,

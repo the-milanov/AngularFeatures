@@ -26,11 +26,21 @@ Covering all major parts of Angular Framework.
    * Multiple outlets
    * Child routes
 5. Animations
-6. Forms
+   * Component
+   * Route
+7. Forms
    * Reactive forms
    * Template-driven forms 
-7. Modules - TODO
-8. RxJS - TODO
+8. Modules 
+   * Module structure
+   * Routing module
+   * Feature, shared, service modules
+9. RxJS
+   * Observable & Observer
+   * of() & from()
+   * Pipe & Operators
+   * Subject & BehaviorSubject
+   * Backpressure
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
