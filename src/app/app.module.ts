@@ -15,6 +15,7 @@ import { Route1Component } from './route1/route1.component';
 import { ImageSliderComponent } from './image-slider/image-slider.component';
 import { FormstestingComponent } from './formstesting/formstesting.component';
 import { HeroFormComponent } from './hero-form/hero-form.component';
+import { ModulesOverviewComponent } from './modules-overview/modules-overview.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HeroFormComponent } from './hero-form/hero-form.component';
     Route1Component,
     ImageSliderComponent,
     FormstestingComponent,
-    HeroFormComponent
+    HeroFormComponent,
+    ModulesOverviewComponent
   ],
   imports: [
     BrowserModule,
